@@ -1,0 +1,31 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "claimreward": "pm2 start claimreward.js",
+    "commentup": "pm2 start commentup.js",
+    "delay": "pm2 start delay.js",
+    "donations": "pm2 start donations.js",
+    "fan_dailylimit_reset": "pm2 start fan_dailylimit_reset.js",
+    "fan": "pm2 start fan.js",
+    "schedule_posts": "pm2 start schedule_posts.js",
+    "trail": "pm2 start trail.js",
+    "unauthorized_users": "pm2 start unauthorized_users.js",
+    "update_power": "pm2 start update_power.js",
+    "upvote": "pm2 start upvote.js",
+    "vote_power": "pm2 start vote_power.js",
+    "start": "npm-run-all --parallel claimreward commentup delay donations fan_dailylimit_reset fan schedule_posts trail unauthorized_users update_power upvote vote_power"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "mysql": "^2.18.1",
+    "npm-run-all": "^4.1.5",
+    "steem": "^0.7.11",
+    "xmlhttprequest": "^1.8.0"
+  }
+}

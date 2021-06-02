@@ -1,0 +1,8 @@
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/steemauto/backend"
+PassengerBaseURI "/api"
+PassengerNodejs "/home/steemauto/nodevenv/backend/10/bin/node"
+PassengerAppType node
+PassengerStartupFile server.js
+PassengerAppLogFile "/home/steemauto/logs/node.log"
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
