@@ -1,0 +1,22 @@
+Server Setup:
+  # Checking the Ubuntu version in the terminal
+      Type the command “lsb_release -a” into the command line and press enter
+  # Perform initial Ubuntu Server Setup (Digital ocean help), most important create and work with a sudo user instead of the root.
+
+  # install php 
+      sudo apt install php7.4-cli
+  # install mysql 
+      https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04
+      import database
+      mysql -u username -p database_name < file.sql
+
+Front End
+  Create fresh github repository
+  delete .git from old source folder backend/frontend
+  git init fresh 
+  add fresh remote origin and push
+Back End
+  Create fresh github repository
+  delete .git from old source folder backend/frontend
+  git init fresh 
+  add fresh remote origin and push
